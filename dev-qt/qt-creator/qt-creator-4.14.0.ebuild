@@ -105,8 +105,7 @@ done
 unset x
 
 PATCHES=(
-#	"${FILESDIR}"/${PN}-4.12.0-dylib-fix.patch
-#	"${FILESDIR}"/${PN}-4.12.0-libclangformat-ide.patch
+	"${FILESDIR}"/${PN}-4.14.0-disable-bad-headerpaths-tweaking.patch
 )
 
 llvm_check_deps() {
